@@ -1,0 +1,13 @@
+﻿Week - Goal
+43 - Find Bootstrap Template + Create this Plan
+44 - User Backend + Database
+	Backend: Get, Put(Create New User, Verification, Encrypting PW), Post(Encrypting PW), Delete(Enter PW to ensure deletion, even after login)
+	Database: ID, Name, Password, Level
+45 - Frontend - Create New User Page + Backend Integration(User Authentication?)
+	Frontend: Create New User Page; User Login; User Page (Overview of reported Bugs' Status);
+46 - Bugs and Message Backend + Database
+	Same general concept as for Users, except the PW isn't there and thus security concerns are lower.
+	Backend: Get(When viewing a single Bug, as well as all UserID submitted bugs; Admin: View all submitted bugs), Put(Create both Messages and Bugs), Delete(Admin Powers)
+	Database: Bug: ID, UserID, Date, Status, Content; Message: ID, BugID, UserID, Content, Date
+47 - Frontend - Submit Bug Page + Viewall Admin Page(Respond/Change Status)
+	Frontend: Submit a Bug Page; Viewall Page(Admin + Change Status); Front Page view all active bugs; View a submitted bug and add a Message;
