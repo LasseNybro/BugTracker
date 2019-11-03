@@ -2,7 +2,9 @@
 43 - Find Bootstrap Template + Create this Plan
 44 - User Backend + Database
 	Backend: Get, Put(Create New User, Verification, Encrypting PW), Post(Encrypting PW), Delete(Enter PW to ensure deletion, even after login)
-	Database: ID, Name, Password, Level
+	Database: UserName, Password, Level //UserName acts as ID and is unique
+
+	Notes: I managed to get there, even though I doubted it because I had other plans most of the weekend.
 45 - Frontend - Create New User Page + Backend Integration(User Authentication?)
 	Frontend: Create New User Page; User Login; User Page (Overview of reported Bugs' Status);
 46 - Bugs and Message Backend + Database
